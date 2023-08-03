@@ -27,7 +27,7 @@ pipeline {
            gradle 'Gradle'
   }
              steps {                  
-                  sh "./gradlew shadowJar --debug"
+                  sh "./gradlew shadowJar"
              }              
          }
      }
