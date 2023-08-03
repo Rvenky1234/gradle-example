@@ -3,7 +3,7 @@
 FROM gradle:latest AS BUILD
 WORKDIR /usr/app/
 COPY . . 
-RUN sh "./gradlew shadowJar --debug"
+RUN ./gradlew shadowJar
 
 # Package stage
 
